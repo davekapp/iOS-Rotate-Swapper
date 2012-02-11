@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UIView *portraitView;
+@property (strong, nonatomic) IBOutlet UIView *landscapeView;
+@property (strong, nonatomic) IBOutlet UIView *xibView;
 
 @end

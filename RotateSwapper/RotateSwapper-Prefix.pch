@@ -12,3 +12,5 @@
   #import <UIKit/UIKit.h>
   #import <Foundation/Foundation.h>
 #endif
+
+#define kDeg2Rad (3.1415926/180.0)

@@ -21,6 +21,7 @@
 		4EBB7FA114E6E11E00921C7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EBB7F7F14E6E11E00921C7F /* Foundation.framework */; };
 		4EBB7FA914E6E11E00921C7F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4EBB7FA714E6E11E00921C7F /* InfoPlist.strings */; };
 		4EBB7FAC14E6E11E00921C7F /* RotateSwapperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EBB7FAB14E6E11E00921C7F /* RotateSwapperTests.m */; };
+		4EBB7FB614E717C000921C7F /* LandscapeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EBB7FB514E717C000921C7F /* LandscapeView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,22 +39,23 @@
 		4EBB7F7D14E6E11E00921C7F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4EBB7F7F14E6E11E00921C7F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4EBB7F8114E6E11E00921C7F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		4EBB7F8514E6E11E00921C7F /* RotateSwapper-Info.plist */ = {isa = PBXFileReference; path = "RotateSwapper-Info.plist"; sourceTree = "<group>"; };
+		4EBB7F8514E6E11E00921C7F /* RotateSwapper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RotateSwapper-Info.plist"; sourceTree = "<group>"; };
 		4EBB7F8714E6E11E00921C7F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4EBB7F8914E6E11E00921C7F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4EBB7F8B14E6E11E00921C7F /* RotateSwapper-Prefix.pch */ = {isa = PBXFileReference; path = "RotateSwapper-Prefix.pch"; sourceTree = "<group>"; };
-		4EBB7F8C14E6E11E00921C7F /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		4EBB7F8B14E6E11E00921C7F /* RotateSwapper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RotateSwapper-Prefix.pch"; sourceTree = "<group>"; };
+		4EBB7F8C14E6E11E00921C7F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4EBB7F8D14E6E11E00921C7F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4EBB7F9014E6E11E00921C7F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		4EBB7F9314E6E11E00921C7F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		4EBB7F9514E6E11E00921C7F /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		4EBB7F9514E6E11E00921C7F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		4EBB7F9614E6E11E00921C7F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4EBB7F9D14E6E11E00921C7F /* RotateSwapperTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RotateSwapperTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EBB7F9E14E6E11E00921C7F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		4EBB7FA614E6E11E00921C7F /* RotateSwapperTests-Info.plist */ = {isa = PBXFileReference; path = "RotateSwapperTests-Info.plist"; sourceTree = "<group>"; };
+		4EBB7FA614E6E11E00921C7F /* RotateSwapperTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RotateSwapperTests-Info.plist"; sourceTree = "<group>"; };
 		4EBB7FA814E6E11E00921C7F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		4EBB7FAA14E6E11E00921C7F /* RotateSwapperTests.h */ = {isa = PBXFileReference; path = RotateSwapperTests.h; sourceTree = "<group>"; };
+		4EBB7FAA14E6E11E00921C7F /* RotateSwapperTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RotateSwapperTests.h; sourceTree = "<group>"; };
 		4EBB7FAB14E6E11E00921C7F /* RotateSwapperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RotateSwapperTests.m; sourceTree = "<group>"; };
+		4EBB7FB514E717C000921C7F /* LandscapeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LandscapeView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 				4EBB7F9214E6E11E00921C7F /* MainStoryboard_iPad.storyboard */,
 				4EBB7F9514E6E11E00921C7F /* ViewController.h */,
 				4EBB7F9614E6E11E00921C7F /* ViewController.m */,
+				4EBB7FB514E717C000921C7F /* LandscapeView.xib */,
 				4EBB7F8414E6E11E00921C7F /* Supporting Files */,
 			);
 			path = RotateSwapper;
@@ -227,6 +230,7 @@
 				4EBB7F8814E6E11E00921C7F /* InfoPlist.strings in Resources */,
 				4EBB7F9114E6E11E00921C7F /* MainStoryboard_iPhone.storyboard in Resources */,
 				4EBB7F9414E6E11E00921C7F /* MainStoryboard_iPad.storyboard in Resources */,
+				4EBB7FB614E717C000921C7F /* LandscapeView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
